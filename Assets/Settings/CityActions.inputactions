@@ -1,0 +1,52 @@
+{
+    "name": "CityActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "9b30cc86-7c2b-4f35-8fbc-97bc8b0415e4",
+            "actions": [
+                {
+                    "name": "PopUp",
+                    "type": "Button",
+                    "id": "aab29c84-96fc-4c67-be91-a3d3d45d79b3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "HideMenu",
+                    "type": "Button",
+                    "id": "389bd8cb-c86c-40c8-bb86-193f3888654d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)"
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3abed434-c712-4220-b513-b93c57f39fda",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PopUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "eb6d1717-dce8-40ce-8095-5be98732a1f5",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HideMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

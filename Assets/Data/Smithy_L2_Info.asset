@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84500d4f7138ff445a1287dc34e54a4f, type: 3}
+  m_Name: Smithy_L2_Info
+  m_EditorClassIdentifier: 
+  Id: 42
+  Name: Smithy level 2
+  CanUpgrade: 1
+  CircleCost: 40
+  SquareCost: 40
+  TriangleCost: 10
